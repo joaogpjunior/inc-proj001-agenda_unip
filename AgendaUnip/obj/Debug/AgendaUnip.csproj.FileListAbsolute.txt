@@ -1,0 +1,10 @@
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\bin\Debug\AgendaUnip.exe.config
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\bin\Debug\AgendaUnip.exe
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\bin\Debug\AgendaUnip.pdb
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.csproj.AssemblyReference.cache
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.frm_login.resources
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.Properties.Resources.resources
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.csproj.GenerateResource.cache
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.csproj.CoreCompileInputs.cache
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.exe
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.pdb
