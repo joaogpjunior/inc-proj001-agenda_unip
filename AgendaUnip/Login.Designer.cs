@@ -31,11 +31,11 @@ namespace AgendaUnip
         {
             this.pnl_login_user = new System.Windows.Forms.Panel();
             this.pnl_login = new System.Windows.Forms.Panel();
-            this.pnl_login_password = new System.Windows.Forms.Panel();
-            this.btn_login = new System.Windows.Forms.Button();
-            this.tb_login_user = new System.Windows.Forms.TextBox();
-            this.tb_login_password = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btn_login = new System.Windows.Forms.Button();
+            this.pnl_login_password = new System.Windows.Forms.Panel();
+            this.tb_login_password = new System.Windows.Forms.TextBox();
+            this.tb_login_user = new System.Windows.Forms.TextBox();
             this.pnl_login.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,15 +63,16 @@ namespace AgendaUnip
             this.pnl_login.Size = new System.Drawing.Size(320, 310);
             this.pnl_login.TabIndex = 1;
             // 
-            // pnl_login_password
+            // label1
             // 
-            this.pnl_login_password.BackColor = System.Drawing.Color.Transparent;
-            this.pnl_login_password.BackgroundImage = global::AgendaUnip.Properties.Resources.senha_transp_maior;
-            this.pnl_login_password.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnl_login_password.Location = new System.Drawing.Point(25, 133);
-            this.pnl_login_password.Name = "pnl_login_password";
-            this.pnl_login_password.Size = new System.Drawing.Size(33, 26);
-            this.pnl_login_password.TabIndex = 1;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label1.Location = new System.Drawing.Point(123, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 31);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Login";
             // 
             // btn_login
             // 
@@ -85,16 +86,17 @@ namespace AgendaUnip
             this.btn_login.TabIndex = 2;
             this.btn_login.Text = "Entrar";
             this.btn_login.UseVisualStyleBackColor = false;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
-            // tb_login_user
+            // pnl_login_password
             // 
-            this.tb_login_user.BackColor = System.Drawing.Color.AliceBlue;
-            this.tb_login_user.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tb_login_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_login_user.Location = new System.Drawing.Point(25, 101);
-            this.tb_login_user.Name = "tb_login_user";
-            this.tb_login_user.Size = new System.Drawing.Size(273, 26);
-            this.tb_login_user.TabIndex = 0;
+            this.pnl_login_password.BackColor = System.Drawing.Color.Transparent;
+            this.pnl_login_password.BackgroundImage = global::AgendaUnip.Properties.Resources.senha_transp_maior;
+            this.pnl_login_password.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnl_login_password.Location = new System.Drawing.Point(25, 133);
+            this.pnl_login_password.Name = "pnl_login_password";
+            this.pnl_login_password.Size = new System.Drawing.Size(33, 26);
+            this.pnl_login_password.TabIndex = 1;
             // 
             // tb_login_password
             // 
@@ -106,16 +108,15 @@ namespace AgendaUnip
             this.tb_login_password.Size = new System.Drawing.Size(273, 26);
             this.tb_login_password.TabIndex = 1;
             // 
-            // label1
+            // tb_login_user
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label1.Location = new System.Drawing.Point(123, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 31);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Login";
+            this.tb_login_user.BackColor = System.Drawing.Color.AliceBlue;
+            this.tb_login_user.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tb_login_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_login_user.Location = new System.Drawing.Point(25, 101);
+            this.tb_login_user.Name = "tb_login_user";
+            this.tb_login_user.Size = new System.Drawing.Size(273, 26);
+            this.tb_login_user.TabIndex = 0;
             // 
             // frm_login
             // 

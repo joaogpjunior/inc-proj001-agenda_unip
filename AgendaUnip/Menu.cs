@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AgendaUnip
 {
-    public partial class frm_login : Form
+    public partial class Frm_Menu : Form
     {
-        public frm_login()
+        public Frm_Menu()
         {
             InitializeComponent();
-        }
-
-        private void frm_login_Load(object sender, EventArgs e)
-        {
-            pnl_login.Location = new Point(this.Width / 2 - 160, this.Height / 2 - 190);
         }
     }
 }
