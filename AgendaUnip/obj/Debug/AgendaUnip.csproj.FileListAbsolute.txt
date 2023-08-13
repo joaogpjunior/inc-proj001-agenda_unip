@@ -8,3 +8,4 @@ E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.cs
 E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.csproj.CoreCompileInputs.cache
 E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.exe
 E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.pdb
+E:\Projetos\Laboratorio\Desktop\C#\AgendaUnip\AgendaUnip\obj\Debug\AgendaUnip.Frm_Menu.resources

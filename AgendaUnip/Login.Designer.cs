@@ -1,7 +1,7 @@
 ﻿
 namespace AgendaUnip
 {
-    partial class frm_login
+    partial class Frm_Login
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -118,7 +118,7 @@ namespace AgendaUnip
             this.tb_login_user.Size = new System.Drawing.Size(273, 26);
             this.tb_login_user.TabIndex = 0;
             // 
-            // frm_login
+            // Frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -127,10 +127,13 @@ namespace AgendaUnip
             this.ClientSize = new System.Drawing.Size(484, 361);
             this.Controls.Add(this.pnl_login);
             this.DoubleBuffered = true;
-            this.Name = "frm_login";
+            this.KeyPreview = true;
+            this.Name = "Frm_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.frm_login_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frm_login_KeyDown);
+            this.Resize += new System.EventHandler(this.Frm_Login_Resize);
             this.pnl_login.ResumeLayout(false);
             this.pnl_login.PerformLayout();
             this.ResumeLayout(false);
